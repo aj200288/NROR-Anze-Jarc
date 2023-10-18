@@ -1,1 +1,1 @@
-# Napredna-rac-orodja
+# Domače naloge pri predmetu Napredna računalniška orodja
