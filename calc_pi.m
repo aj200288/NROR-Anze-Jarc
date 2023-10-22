@@ -23,6 +23,10 @@ plot(a,b,'black','LineWidth',3)
 hold on
 plot(znotraj_kroga(1,:),znotraj_kroga(2,:), 'r.', znotraj_kvadrata(1,:),znotraj_kvadrata(2,:), 'b.')
 axis equal
+xlabel('X-os')
+ylabel('Y-os')
+title('Naključno generirane točke na krožnici')
+legend('Znotraj kroga','Zunaj kroga','Krožnica')
 hold off
 
 % funkcija za izračun števila pi in napake
