@@ -1,7 +1,7 @@
 function [znotraj_kroga, znotraj_kvadrata] = mcc_pi(n)
 % funkcija vrne koordinate točk znotraj kroga in koordinate točk zunaj
 % kroga
-%prva vrstiva vrnjene matrike je x koordinata, druga pa y
+% prva vrstiva vrnjene matrike je x koordinata, druga pa y
 znotraj_kroga=[];
 znotraj_kvadrata=[];
 
