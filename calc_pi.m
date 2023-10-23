@@ -26,7 +26,7 @@ axis equal
 xlabel('X-os')
 ylabel('Y-os')
 title('Naključno generirane točke na krožnici')
-legend('Znotraj kroga','Zunaj kroga','Krožnica')
+legend('Krožnica','Znotraj kroga','Zunaj kroga')
 hold off
 
 % funkcija za izračun števila pi in napake
