@@ -1,0 +1,19 @@
+IZPIS REZULTATOV
+a ... brez paralelizacije
+b .. s paralelitacijo
+
+
+[campus19@gpu02 DN5]$ g++ -o a DNS.cpp
+[campus19@gpu02 DN5]$ ./a
+Velikost matrike A: 256x256 Velikost vektorja b: 256
+Time of Gauss-Seidel: 0.757488 seconds                 <--- čas brez paralelizacije
+Serial Time: 0.757488 seconds
+Max. temperature: 500 degree C.
+
+[campus19@gpu02 DNS]$ g++ fopenmp-ob DNS.cpp
+[campus19@gpu02 DNS]$ ./b
+Velikost matrike A: 256x256
+Velikost vektorja b: 256
+Time of Gauss-Seidel: 0.0792607 seconds                 <--- čas s paralelizacijo
+Serial Time: 0.0792607 seconds
+Max. temperature: 500 degree C.
