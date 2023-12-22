@@ -121,6 +121,7 @@ int main() {
     }
 
     auto start_time = std::chrono::high_resolution_clock::now();
+    
 #pragma omp parallel for
     for (int iitt = 0; iitt < 2000; iitt++) {
         for (int jj = 0; jj < n; jj++) {
